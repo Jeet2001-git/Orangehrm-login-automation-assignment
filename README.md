@@ -126,8 +126,6 @@ Assignment 1 [OrangeHRM]
 └── README.md
 ```
 
-│
-
 
 ---
 
@@ -153,8 +151,8 @@ Assignment 1 [OrangeHRM]
        pip install -r requirements.txt
        pytest
 
-
 ---
+
 
 ## 🖼️ Screenshots
 
@@ -165,12 +163,15 @@ This screenshot shows the successful execution of the automated test case (`TC_L
 
 ![PyTest Execution](screenshots/pytest_execution.png)
 
+
 ---
+
 
 ### ✅ Successful Login – Dashboard Page
 This screenshot confirms that the user is redirected to the Dashboard page after successful login with valid credentials.
 
 ![Dashboard Page](screenshots/dashboard_page.png)
+
 
 ---
 
@@ -181,5 +182,3 @@ This screenshot confirms that the user is redirected to the Dashboard page after
 - Clean automation framework design using **POM**
 - Responsible and effective use of **AI in QA workflows**
 - Focus on **maintainability, stability, and real-world practices**
-
----
