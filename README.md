@@ -112,19 +112,21 @@ Assignment 1 [OrangeHRM]
 │   └── login_page.py       # Login page object
 │
 ├── testdata/
-│   └── OrangeHRM_Login_TestCases.xlsx  
+│   └── OrangeHRM_Login_TestCases.xlsx   # AI-generated & reviewed test cases
 │
 ├── tests/
-│   └── test_login.py       
+│   └── test_login.py       # Automated login test
 │
-├── screenshots/            
+├── screenshots/            # Test execution & result screenshots
 │
-├── .gitignore              
-├── conftest.py             
-├── pytest.ini              
-├── requirements.txt        
+├── .gitignore              # Git ignore rules (IDE & cache files)
+├── conftest.py             # Browser setup & PyTest fixtures
+├── pytest.ini              # PyTest configuration
+├── requirements.txt        # Project dependencies
 └── README.md
 ```
+
+│
 
 
 ---
@@ -147,9 +149,10 @@ Assignment 1 [OrangeHRM]
 1. Clone the repository
 2. Navigate to the project directory
 3. Install dependencies:
-       ```bash 
-        pip install -r requirements.txt 
-        pytest
+       ```bash
+       pip install -r requirements.txt
+       pytest
+
 
 ---
 
@@ -180,4 +183,3 @@ This screenshot confirms that the user is redirected to the Dashboard page after
 - Focus on **maintainability, stability, and real-world practices**
 
 ---
-
